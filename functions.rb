@@ -1,4 +1,6 @@
 def comment
-  puts 'Josh is awesome'
+  puts 'Josh is awesome?'
+  response = gets.chomp
+  puts response
 end
 comment
