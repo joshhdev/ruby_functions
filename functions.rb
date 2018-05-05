@@ -1,6 +1,10 @@
 def comment
-  puts 'Josh is awesome?'
+  puts 'Do you think Josh is awesome?'
   response = gets.chomp
-  puts response
+  if response == 'yes'
+    puts "You're awesome too!"
+  else
+    puts 'hmm try again...'
+  end
 end
 comment
