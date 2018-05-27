@@ -6,5 +6,12 @@ def comment
   else
     puts 'hmm try again...'
   end
+  puts 'Why do you have this opinion?'
+  responseNew = gets.chomp
+  if responseNew == true
+    puts responseNew
+  else
+    puts 'please enter a response.'
 end
+
 comment
