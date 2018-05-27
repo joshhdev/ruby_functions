@@ -11,7 +11,7 @@ def comment
   if responseNew == true
     puts responseNew
   else
-    puts 'please enter a response.'
+    puts 'Please, enter a response.'
 end
 
 comment
