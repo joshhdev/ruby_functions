@@ -12,6 +12,7 @@ def comment
     puts responseNew
   else
     puts 'Please, enter a response.'
+  end
 end
 
 comment
