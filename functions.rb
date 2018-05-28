@@ -8,7 +8,7 @@ def comment
   end
   puts 'Why do you have this opinion?'
   responseNew = gets.chomp
-  if responseNew == true
+  if responseNew.length > 0
     puts responseNew
   else
     puts 'Please, enter a response.'
