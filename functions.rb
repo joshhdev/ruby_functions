@@ -14,8 +14,4 @@ def comment
     puts 'Please, enter a response.'
   end
 end
-
-
-
-
 comment
